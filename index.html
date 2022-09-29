@@ -21,9 +21,28 @@
             top: 50%;
             transform: translate(-50%,-50%);
         }
+        .bird {
+            background-image: url("https://static.wikia.nocookie.net/starwars/images/4/47/Porg_wings_Fathead.png");
+            height: 200px;
+            width: 350px;
+            background-size: cover;
+            position: absolute;
+        }
+
+        .rigt{
+            right: 0;
+            transform: scaleX(-1);
+        }
+        .botton{
+            bottom: 0;
+        }
     </style>
 </head>
 <body>
     <div class="sun"></div>
+    <div class="bird rigt botton"></div>
+    <div class="bird rigt"></div>
+    <div class="bird botton"></div>
+    <div class="bird"></div>
 </body>
 </html>
